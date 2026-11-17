@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview | DashFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <span class="logo-icon">D</span>
+                <h2>DashFlow</h2>
+            </div>
+
+            <div class="sidebar-menu">
+                <p class="menu-title">MENU</p>
+
+                <a href="#" class="menu-link active">
+                    <span>▦</span> Overview
+                </a>
+
+                <a href="#" class="menu-link">
+                    <span>◷</span> Analytics
+                </a>
+
+                <a href="#" class="menu-link">
+                    <span>▤</span> Transactions
+                </a>
+
+                <a href="#" class="menu-link">
+                    <span>♙</span> Customers
+                </a>
+
+                <a href="#" class="menu-link">
+                    <span>⚙</span> Settings
+                </a>
+            </div>
+
+            <div class="sidebar-bottom">
+                <div class="profile">
+                    <div class="profile-avatar">S</div>
+                    <div>
+                        <h4>Salam</h4>
+                        <p>Administrator</p>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- TOPBAR -->
+            <header class="topbar">
+
+                <div class="page-heading">
+                    <h1>Overview</h1>
+                    <p>Welcome back! Here's what's happening today.</p>
+                </div>
+
+                <div class="topbar-actions">
+                    <button class="notification">♧</button>
+                    <div class="topbar-profile">S</div>
+                </div>
+
+            </header>
+
+
+            <!-- DASHBOARD CONTENT -->
+            <section class="dashboard-content">
+
+                <!-- STATISTICS -->
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+                        <p>Total Revenue</p>
+                        <h2>$24,500</h2>
+                        <span class="growth">↑ 12.5% this month</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <p>Total Customers</p>
+                        <h2>1,245</h2>
+                        <span class="growth">↑ 8.2% this month</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <p>Total Orders</p>
+                        <h2>856</h2>
+                        <span class="growth">↑ 5.4% this month</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <p>Pending Orders</p>
+                        <h2>32</h2>
+                        <span class="decline">↓ 2.1% this month</span>
+                    </div>
+
+                </div>
+
+
+                <!-- CHART SECTION -->
+                <div class="content-grid">
+
+                    <div class="chart-card">
+                        <div class="card-heading">
+                            <div>
+                                <h3>Revenue Overview</h3>
+                                <p>Monthly revenue performance</p>
+                            </div>
+
+                            <select>
+                                <option>Last 7 months</option>
+                                <option>Last 30 days</option>
+                                <option>This year</option>
+                            </select>
+                        </div>
+
+                        <div class="chart-placeholder">
+                            <p>Chart goes here</p>
+                        </div>
+                    </div>
+
+
+                    <!-- RECENT ACTIVITY -->
+                    <div class="activity-card">
+                        <h3>Recent Activity</h3>
+
+                        <div class="activity-item">
+                            <div class="activity-icon">✓</div>
+                            <div>
+                                <h4>Payment received</h4>
+                                <p>New payment from customer</p>
+                                <small>2 minutes ago</small>
+                            </div>
+                        </div>
+
+                        <div class="activity-item">
+                            <div class="activity-icon">＋</div>
+                            <div>
+                                <h4>New customer</h4>
+                                <p>A new customer joined</p>
+                                <small>20 minutes ago</small>
+                            </div>
+                        </div>
+
+                        <div class="activity-item">
+                            <div class="activity-icon">▤</div>
+                            <div>
+                                <h4>New order</h4>
+                                <p>Order #DH204 received</p>
+                                <small>1 hour ago</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TRANSACTIONS TABLE -->
+                <div class="transactions-card">
+
+                    <div class="card-heading">
+                        <div>
+                            <h3>Recent Transactions</h3>
+                            <p>Latest customer transactions</p>
+                        </div>
+
+                        <a href="#">View all</a>
+                    </div>
+
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>John Smith</td>
+                                    <td>Nov 17, 2026</td>
+                                    <td>$450.00</td>
+                                    <td><span class="status paid">Paid</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sarah Johnson</td>
+                                    <td>Nov 16, 2026</td>
+                                    <td>$280.00</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Michael Brown</td>
+                                    <td>Nov 15, 2026</td>
+                                    <td>$620.00</td>
+                                    <td><span class="status paid">Paid</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Emily Davis</td>
+                                    <td>Nov 14, 2026</td>
+                                    <td>$150.00</td>
+                                    <td><span class="status cancelled">Cancelled</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
